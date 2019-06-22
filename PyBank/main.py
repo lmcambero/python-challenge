@@ -2,7 +2,7 @@ import os
 import csv
 
 # Path to collect data from the source folder
-financial_csv = os.path.join('Users⁩/⁨lcambero⁩/⁨OneDrive - Nokia⁩/Documents⁩/DataTecMC201905⁩/⁨github⁩/⁨python-challenge⁩/PyBank⁩', 'PyBank_Resources_budget_data.csv')
+financial_csv = os.path.join('PyBank_Resources_budget_data.csv')
 
 # Read in the CSV file
 with open(financial_csv, 'r') as csvfile:
